@@ -1,7 +1,7 @@
 **Car Sales Data Analysis Report**
 
 --- 
-**Student Name:** Pranav Reddy Pedablle  
+**Student Name:** Pranav Reddy Pedaballe  
 ---
 
 ## **1. Introduction**
@@ -35,17 +35,19 @@ EDA was conducted to explore the dataset's characteristics and relationships bet
 
 #### **Descriptive Statistics:**
 - **Annual Income:**
-  - Mean: $750,072
-  - Standard Deviation: $563,233
+  - Mean: $830,840
+  - Standard Deviation: $720,006
   - Distribution: Right-skewed
 - **Price ($):**
-  - Mean: $25,429
-  - Minimum: $1,200
-  - Maximum: $57,990
+  - Mean: $28,090
+  - Standard Deviation: $14,788
 
 #### **Visual Representations:**
-- **Histograms and Density Plots:**
-  - Both "Annual Income" and "Price ($)" exhibited a right-skewed distribution.
+- **Numerical variables**
+  - **Histograms and Density Plots and Box Plots:**
+    - Both "Annual Income" and "Price ($)" exhibited a right-skewed distribution.
+-**Categorical variables**
+  -**Bar graphs and Pie Charts**
 
 ### **3.2 Bivariate Analysis**
 
