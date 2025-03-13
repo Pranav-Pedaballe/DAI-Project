@@ -1,7 +1,9 @@
-**Car Sales Data Analysis Report**
+**Car Sales Data Analysis**
 
 --- 
-**Student Name:** Pranav Reddy Pedaballe  
+Student Name:Pranav Reddy Pedaballe
+Enrollment no.:23117099
+Branch: ECE
 ---
 
 ## **1. Introduction**
@@ -79,5 +81,4 @@ This analysis provides key insights into customer demographics and purchasing be
 3. **Data Integrity:** The dataset is free of missing values and duplicate records, with necessary outlier treatments performed.
 4. **Future Considerations:** Additional external factors (e.g., geographic location, customer preferences, economic conditions) should be considered for a deeper analysis.
 
-**End of Report**
 
