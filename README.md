@@ -25,7 +25,7 @@ Data cleaning is a crucial step in ensuring the accuracy and reliability of the 
   - **Price ($):** 351 outliers identified.
 - Outliers were removed, reducing the dataset size to 23226 records from 23906.
 
-### **2.4 Converting the date from onject type to Datetime type**
+### **2.4 Converting the date from object type to Datetime type**
 
 ## **3. Exploratory Data Analysis (EDA)**
 
@@ -50,20 +50,22 @@ EDA was conducted to explore the dataset's characteristics and relationships bet
   -**Bar graphs and Pie Charts**
 
 ### **3.2 Bivariate Analysis**
-
-#### **Correlation Analysis:**
-- A correlation matrix revealed a weak positive correlation (r ≈ 0.3) between "Annual Income" and "Price ($)," indicating that higher-income customers tend to purchase more expensive cars, albeit with significant variability.
-
+#### **Violin Plot Analysis:**
+- Violin plots were used to visualize the distribution of car prices across different categories, such as gender and body style.
+- The analysis revealed that while the median car price remains relatively consistent across gender groups, certain categories exhibited wider price distributions, suggesting variability in purchasing behavior within those groups.
+  
 #### **Scatter Plot Analysis:**
 - A scatter plot of "Annual Income" vs. "Price ($)" highlighted a dispersed trend, reinforcing the weak correlation between these variables.
 
 #### **Box Plot Analysis:**
 - A box plot comparing "Gender" and "Price ($)" indicated no significant differences in car prices between male and female customers.
 
-### **3.3 Multivariate Analysis**
-
 #### **Heatmap Analysis:**
 - A heatmap of numerical variables confirmed weak correlations between "Annual Income" and "Price ($)."
+### **3.3 Multivariate Analysis**
+
+#### **Correlation Analysis:**
+- A correlation matrix revealed a weak positive correlation (r ≈ 0.3) between "Annual Income" and "Price ($)," indicating that higher-income customers tend to purchase more expensive cars, albeit with significant variability.
 
 #### **Categorical Analysis:**
 - Grouped box plots and other visualizations did not reveal strong relationships between categorical variables (e.g., "Body Style," "Company") and price.
@@ -76,16 +78,6 @@ This analysis provides key insights into customer demographics and purchasing be
 2. **Gender and Car Price:** There is no significant difference in the average price of cars purchased by male and female customers.
 3. **Data Integrity:** The dataset is free of missing values and duplicate records, with necessary outlier treatments performed.
 4. **Future Considerations:** Additional external factors (e.g., geographic location, customer preferences, economic conditions) should be considered for a deeper analysis.
-
----
-
-**References:**
-[Include any references used for analysis, such as datasets, academic papers, or statistical methods.]
-
-**Appendices:**
-[Include any additional charts, tables, or data visualizations as needed.]
-
----
 
 **End of Report**
 
