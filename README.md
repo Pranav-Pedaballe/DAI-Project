@@ -19,15 +19,13 @@ Data cleaning is a crucial step in ensuring the accuracy and reliability of the 
 - No duplicate records were found in the dataset.
 
 ### **2.3 Outlier Detection and Treatment**
-- The interquartile range (IQR) method was employed to identify outliers in numerical columns.
+- The z-score method was employed to identify outliers in numerical columns.
 - Outliers were detected in the following attributes:
-  - **Annual Income:** 816 outliers identified.
-  - **Price ($):** 1,449 outliers identified.
-- Outliers were removed, reducing the dataset size to 21,697 records.
+  - **Annual Income:** 336 outliers identified.
+  - **Price ($):** 351 outliers identified.
+- Outliers were removed, reducing the dataset size to 23226 records from 23906.
 
-### **2.4 Standardization of Categorical Variables**
-- The "Engine" column contained encoding issues (e.g., "DoubleÂ Overhead Camshaft"), which were corrected.
-- Other categorical variables were reviewed to ensure consistency and uniform formatting.
+### **2.4 Converting the date from onject type to Datetime type**
 
 ## **3. Exploratory Data Analysis (EDA)**
 
